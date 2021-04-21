@@ -28,11 +28,13 @@
                 box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.5);
                 box-sizing: border-box;
                 margin-bottom: 30px;
-                animation-name: leftToRight;
                 animation-duration: 1s;
-            }
-            .project {
+                transition: background-color 0.2s, box-shadow 0.2s;
                 cursor: pointer;
+            }
+            .project:hover {
+                background-color: rgb(0, 0, 255, 0.08);
+                box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.6);
             }
             .projectName {
                 font-size: 25px;
